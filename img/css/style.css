@@ -1,0 +1,331 @@
+
+.{
+    border-radius: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+display: flex;
+  
+position: fixed;
+}
+ul{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    padding: 10px 20 px;
+    list-style: none;
+    
+color: white;
+}
+ul>li>a{
+    color: lightseagreen;
+    font-size: 30px;
+    text-decoration: none;
+}
+ul>li>a:hover{
+    color:wheat;
+}
+
+
+
+
+
+.head>h1{
+    text-align: center;
+    font-size: 50px;
+    color: #20b2aa;
+    text-shadow: 2px 2px 2px white;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+  
+    
+    
+}
+.logo{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+.logo:hover{
+transform: rotateY(360deg);
+transition: 7s;
+cursor: pointer;
+}
+
+
+.search{
+    position: fixed;
+    top: 2%;
+    right: 1%;
+}
+.search{
+    width: 190px;
+    height: 30px;
+    border: 2px solid white;
+    font-size: 15px;
+    color: aliceblue;
+}
+.search:hover{
+    transform: scaleX(1.3);
+    transition: 2s;
+    background-color:wheat;
+    color: rgb(70, 68, 65);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+.head{
+   width: 100%;
+   height: 600px;
+   background-image: url(../oxford.jfif);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   z-index: -1;
+    
+}
+.first{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15%;
+    color: lightseagreen;
+    margin-top: 7%;
+}
+#div1{
+    display:inline-block;
+    justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+  margin-top: 12%;
+   margin-left: 35%;
+}
+#div1 img{
+    width: 450px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: pointer;;
+    box-shadow: 2px 2px 3px 0px black;
+
+}
+#div2{
+    display:inline-block;
+    justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+  margin-top: 5%;
+   margin-left: 35%;
+}
+#div2 img{
+    width: 450px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: pointer;;
+    box-shadow: 2px 2px 3px 0px black;
+}
+#div3{
+    text-align: center;
+    font-size: 35px;
+    color: lightseagreen;
+}
+#div4{
+    display: flex;
+    justify-content: center;
+}
+#div4:hover{
+    transform: scale(1.2);
+    transition: 8s;
+}
+footer{
+    background-color: rgb(10, 141, 134);
+    width: 100%;
+    padding: 3%;
+    overflow: auto;
+}
+#comment{
+    font-size: 30px;
+    color:white;
+    margin-left: 40%;
+   text-shadow: 1px 1px black;
+ 
+}
+#text{
+
+    width: 400px;
+    height: 25px;
+    margin: 6px;
+    margin-left: 6.3%;
+      box-shadow: 1px 1px 1px lightseagreen;
+       border: 2px white;
+
+}
+#area{
+    width: 400px;
+    height: 130px;
+    margin-left: 10%;
+    border: 2px white;
+    margin: 6px;
+    box-shadow: 1px 1px 1px lightseagreen;
+
+}
+#full{
+color: white;
+margin-left: 25%;
+
+}
+#send{
+    width: 95px;
+    margin-top: 2%;
+    margin-left: 38%;
+    padding: 8px;
+   background-color: lightseagreen;
+   color: white;
+   box-shadow: 2px 2px 2px black;
+}
+#send:hover{
+cursor: pointer;
+background-color: white;
+border: none;
+color: black;
+}
+#INFO{
+  color: white;
+  margin-left: 40%;
+  margin-top: 5%;
+ 
+}
+.information{
+    margin-left: 21%;
+    margin-top: 7%;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+.firstsection>#M{
+    font-size: 30px;
+    color: lightseagreen;
+    margin-top: 8%;
+    text-align: center;
+}
+.firstsection>div{
+    display: flex;
+    text-align: justify;
+    margin-left: 5%;
+    padding: 15px;
+}
+.firstsection>#L{
+    font-size: 30px;
+    color: lightseagreen;
+    margin-top: 5%;
+    text-align: center;
+}
+.firstsection>#div1{
+    display: flex;
+    text-align: justify;
+    margin-left: 6%;
+    padding: 15px;}
+    
+    .firstsection>#M2{
+    font-size: 30px;
+    color: lightseagreen;
+    margin-top: 5%;
+    text-align: center;
+    }
+    .firstsection>#P{
+    font-size: 30px;
+    color: lightseagreen;
+    margin-top: 5%;
+    text-align: center;
+    }
+    .firstsection>.center:hover{
+        cursor: pointer;
+transform:scale(1.2);
+transition: 7s;
+    }
+ #A{
+    color: lightseagreen;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7%;
+ }
+ .real>img{
+    height: 300px;
+    width: 350px;
+    margin-left: 17%;
+    display: block;
+ }
+ 
+ .real{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    position: relative;
+ }
+ .me>{
+    width: 65%;
+    display: inline-block;
+ }
+ .text>h1,#tel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+ }
+ .overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: width 4s linear;
+ }
+ .real:hover .overlay{
+    opacity: 0.7;
+    background-color: lightseagreen;
+    width: 100%;
+ }
+ #R{
+    color: lightseagreen;
+    font-size: 30px;
+    text-align: center;
+ }
+ .form{
+    margin-left: 35%;
+    padding: 17px;
+    
+ }
+ #input1{
+    width:400px;
+    height: 60px;
+    border: 1px solid rgb(35, 39, 27);
+ }
+ textarea{
+    width: 400px;
+    height: 140px;
+    border: 1px solid rgb(34, 37, 27);
+    
+ } 
+ span{
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+ }
+ #s{
+    padding: 4px;
+    width: 60px;
+
+ }
+ #s:hover{
+    background-color: rgb(147, 206, 224);
+    border: 2px solid grey;
+    
+ }
